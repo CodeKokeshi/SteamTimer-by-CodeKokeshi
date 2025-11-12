@@ -118,7 +118,7 @@ Rename the original game's `.exe` file by adding extra characters at the end.
 This preserves the original game file so you can restore it later.
 
 ### Step 3: Replace with SteamTimer
-1. Build or download `SteamTimer.exe` (see "Build a Standalone EXE" section below)
+1. Build or download `SteamTimer.exe` (see "Build a Standalone EXE" section below) or download from the releases.
 2. Rename `SteamTimer.exe` to match the **original game executable name** exactly
    - Example: If the game was `game.exe`, rename SteamTimer to `game.exe`
 3. Copy this renamed file to the game's directory (where you renamed the original)
@@ -143,12 +143,6 @@ To play the actual game again:
 ```powershell
 python main.py --help
 ```
-
-## Notes / Future Ideas
-- Persist elapsed time across restarts by writing a small JSON with `start_epoch` or cumulative seconds.
-- System tray integration to minimize clutter.
-- Pause/resume functionality.
-- Export a simple log of session durations.
 
 ## License
 Released under **The Unlicense**. Public domain dedication—do anything you want; attribution appreciated but not required.
